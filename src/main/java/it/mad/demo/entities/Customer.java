@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Customer extends AbstractEntity<Long> {
+public class Customer implements AbstractEntity<Long> {
 
     @Id
     @GeneratedValue
