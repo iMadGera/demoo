@@ -1,5 +1,5 @@
 package it.mad.demo.entities;
 
-public interface AbstractEntity<E> {
-    E getId();
+public abstract class AbstractEntity<E> {
+    abstract E getId();
 }
